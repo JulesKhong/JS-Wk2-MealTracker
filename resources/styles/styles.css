@@ -6,30 +6,63 @@ h1 {
   color: #F46D6A;
 }
 
+h2 {
+  color: #3374AD;
+}
+
 h5 {
   line-height: .5em;
   color: #3374AD;
 }
 h4 {
   color: #3374AD;
+  font-weight: bold;
 }
 
 p {
   color: #1F4669;
+  font-size: 1.25em;
 }
 
-.col-sm-3 {
+/*.col-sm-3 {
   background-color: #FAD0C0;
-}
+}*/
 
 .col-sm-2 {
-  background-color: #FFF;
+  /*background-color: #FFF;*/
   border-radius: 10px;
-  padding: 1% 2%;
-  margin-top: 120px;
+  padding: 4% 2%;
+  margin-top: 90px;
+  border-right: 1px solid #ffffff;
+  height: 600px;
 }
 
 nav {
   padding-left: 40px;
   padding-bottom: 20px;
+}
+
+.edit-meal {
+  margin-top: 140px;
+  margin-left: 3%;
+  border-radius: 10px;
+  background-color: white;
+  height: 300px;
+  padding: 5% 5%;
+  text-align: center;
+  opacity: 90%;
+}
+
+.entry {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.img {
+  width: auto;
+  height: 3px;
+}
+
+.navbar {
+  border-bottom: 2px solid #58B7D9;
 }
