@@ -1,7 +1,7 @@
 ////////////////////// DEPENDENCIES AND VARIABLES //////////////////////
 
 var gulp = require('gulp');
-
+var moment = require('moment');
 // used for concatenating/minifying bower files and other js/css
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');

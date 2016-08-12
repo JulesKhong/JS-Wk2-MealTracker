@@ -14,9 +14,10 @@ body {
   background: #B00C59;
   color: white;
 }
-.btn-default:hover {
+
+.btn-default:hover, .btn-default:active, .btn-default:focus {
   margin-top: 20px;
-  background: #B00C59;
+  background: #a70c54;
   color: white;
 }
 

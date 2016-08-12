@@ -19,8 +19,8 @@ import { CaloriesPipe } from './calories.pipe';
     <h4>Filter entries</h4>
     <select id="calorieFilter" class="form-control" (change)="onChange($event.target.value)">
       <option selected="selected">All entries</option>
-      <option value="low">Low calorie (100 or less)</option>
-      <option value="high">High calorie (over 500)</option>
+      <option value="low">Low calorie (Less than 500)</option>
+      <option value="high">High calorie (More than 500)</option>
     </select>
     <hr>
     <h4>Today's entries</h4>

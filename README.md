@@ -20,6 +20,7 @@ This site allows a user to track meals, and tally calories for the day, and to s
       - gem install sass
       - nmp install typescript -g
       - apm install atom-typescript
+      - bower install moment --save
   - gulp build
   - gulp serve
 
