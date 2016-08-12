@@ -8,6 +8,7 @@ import { DisplayMealComponent } from './display-meal.component';
   directives: [DisplayMealComponent],
   template: `
   <div class="col-sm-2">
+    <h4>History</h4>
     <display-meal *ngFor="#meal of listMeal"
       [meal]="meal">
     </display-meal>
