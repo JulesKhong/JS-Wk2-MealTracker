@@ -17,7 +17,7 @@ export class AppComponent {
   public meals: Meal[];
   constructor(){
     this.meals = [
-      new Meal("Oatmeal", "with peanut butter and applesauce", 280),
+      new Meal("oatmeal", "with peanut butter and applesauce", 280),
       new Meal("burrito", "no cheese or sour cream. From food cart", 600),
       new Meal("salad bar", "with chicken, and fruit salad", 400)
     ];

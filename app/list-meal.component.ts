@@ -11,7 +11,7 @@ import { NewMealComponent } from './new-meal.component';
   directives: [DisplayMealComponent, EditMealComponent, NewMealComponent],
   template: `
   <div class="col-sm-2">
-    <h4>Today's Calories:</h4>
+    <h4>Today's calories:</h4>
     <p>{{ totalCalories(listMeal) }}</p>
     <hr>
     <h4>Today's entries</h4>

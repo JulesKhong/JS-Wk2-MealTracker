@@ -19,6 +19,14 @@ h4 {
   font-weight: bold;
 }
 
+.aside {
+  position: absolute;
+  bottom: 40px;
+  font-weight: 300;
+  text-align: center;
+  font-style: oblique;
+}
+
 p {
   color: #1F4669;
   font-size: 1.25em;
@@ -85,4 +93,8 @@ nav {
 
 label {
   margin-top: 10px;
+}
+
+.edit-detail {
+  margin-top: 40px;
 }

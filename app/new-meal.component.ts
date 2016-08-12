@@ -13,7 +13,7 @@ import { Meal } from './meal.model';
     <input class="form-control" id="details" #details>
     <label for="calories">Calories (Not sure? Try <a href="http://www.calorieking.com/foods/">this resource</a>)</label>
     <input class="form-control" id="calories" #calories>
-    <button class="btn btn-default" (click)="createMeal(name, details, calories)">Log meal</button>
+    <button class="btn btn-default" (click)="createMeal(name, details, calories)">Add entry</button>
   </div>
   `
 })
@@ -25,7 +25,7 @@ export class NewMealComponent {
     this.onSubmitNewMeal = new EventEmitter();
   }
   createMeal(name: HTMLInputElement, details: HTMLInputElement, calories: HTMLInputElement){
-    this.newMeal = new Meal(name.value, details.value, parseInt(calories.value));
+    this.newMeal = new Meal(name.value.toLowerCase(), details.value, parseInt(calories.value));
     this.onSubmitNewMeal.emit(this.newMeal);
     name.value = "";
     details.value = "";
